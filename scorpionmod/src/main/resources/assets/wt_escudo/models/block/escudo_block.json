@@ -1,0 +1,20 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "all": "wt_escudo:block/escudo_block"
+  },
+  "elements": [
+    {
+  "from": [0, 0, 7],
+  "to": [32, 32, 9],
+      "faces": {
+        "north": { "texture": "#all", "uv": [0, 0, 32, 32] },
+        "south": { "texture": "#all", "uv": [0, 0, 32, 32] },
+        "east":  { "texture": "#all", "uv": [0, 0, 16, 32] },
+        "west":  { "texture": "#all", "uv": [0, 0, 16, 32] },
+        "up":    { "texture": "#all", "uv": [0, 0, 32, 16] },
+        "down":  { "texture": "#all", "uv": [0, 0, 32, 16] }
+      }
+    }
+  ]
+}

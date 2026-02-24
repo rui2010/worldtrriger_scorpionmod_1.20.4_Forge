@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "wt_escudo:block/escudo_block_north" },
+    "facing=south": { "model": "wt_escudo:block/escudo_block_south" },
+    "facing=west":  { "model": "wt_escudo:block/escudo_block_west" },
+    "facing=east":  { "model": "wt_escudo:block/escudo_block_east" },
+    "facing=up":    { "model": "wt_escudo:block/escudo_block_up" },
+    "facing=down":  { "model": "wt_escudo:block/escudo_block_down" }
+  }
+}

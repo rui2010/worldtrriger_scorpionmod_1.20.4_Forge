@@ -1,0 +1,7 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+modId="wt_escudo"
+version="1.0.0"
+displayName="WT Escudo"
+description='''WT Escudo mod'''
+license="MIT"

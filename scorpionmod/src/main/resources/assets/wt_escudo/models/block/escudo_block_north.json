@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "north": "wt_escudo:block/escudo_block",
+    "south": "wt_escudo:block/escudo_block",
+    "west": "wt_escudo:block/escudo_block",
+    "east": "wt_escudo:block/escudo_block",
+    "up": "wt_escudo:block/escudo_block",
+    "down": "wt_escudo:block/escudo_block"
+  }
+}
