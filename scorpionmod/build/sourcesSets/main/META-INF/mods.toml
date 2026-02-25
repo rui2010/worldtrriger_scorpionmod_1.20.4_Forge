@@ -1,7 +1,17 @@
 modLoader="javafml"
-loaderVersion="[46,)"
-modId="wt_escudo"
+loaderVersion="[49,)" # Forge 1.20.4 は FML 49系
+license="All Rights Reserved"
+
+[[mods]]
+modId="scorpion"
 version="1.0.0"
-displayName="WT Escudo"
-description='''WT Escudo mod'''
-license="MIT"
+displayName="ã¹ã³ã¼ããªã³Mod"
+description="ã¹ã³ã¼ããªã³ãè¿½å ããmod"
+authors="ruka"
+
+[[dependencies.scorpion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[49.0.0,)"
+    ordering="NONE"
+    side="BOTH"

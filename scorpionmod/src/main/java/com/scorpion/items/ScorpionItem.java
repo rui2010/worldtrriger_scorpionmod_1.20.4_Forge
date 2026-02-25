@@ -8,8 +8,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.network.chat.Component;
-import com.scorpion.entity.ScorpionProjectile;
-
+import com.scorpion.entity.ShotScorpion;
+import com.scorpion.ModEntities;
+import net.minecraft.world.phys.Vec3;
 
 public class ScorpionItem extends Item {
 
@@ -30,7 +31,7 @@ public class ScorpionItem extends Item {
             //片手だけ持っているときの処理
             if (onlyOneHand) {
                 player.sendSystemMessage(Component.literal("片手だけに持っている！"));
-                ScorpionProjectile proj = new ScorpionProjectile(level, player);
+                ShotScorpion proj = new ShotScorpion(level, player);
                 //飛ばしたらスコーピオンを消す
                 ItemStack stack = player.getItemInHand(hand);
                 stack.shrink(1);

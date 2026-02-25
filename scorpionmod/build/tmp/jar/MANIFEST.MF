@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Specification-Title: escudo
+Specification-Title: scorpion
 Specification-Vendor: ruka
 Specification-Version: 1
-Implementation-Title: wt_escudo
+Implementation-Title: scorpionmod
 Implementation-Version: 1.0.0
 Implementation-Vendor: ruka
 

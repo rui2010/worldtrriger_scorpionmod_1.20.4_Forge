@@ -13,18 +13,18 @@ public class ModEntities {
         public static final DeferredRegister<EntityType<?>> ENTITIES =
                 DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, "scorpion");
         //片手のみに持ってるときのスコーピオンを投げたときのエンティティ
-        public static final RegistryObject<EntityType<ShotScorpion>> ShotSCORPION =
+        public static final RegistryObject<EntityType<ShotScorpion>> SHOTSCORPION =
                 ENTITIES.register("shotscorpion",
-                        () -> EntityType.Builder.<ScorpionProjectile>of(ScorpionProjectile::new, MobCategory.MISC)
+                        () -> EntityType.Builder.<ShotScorpion>of(ShotScorpion::new, MobCategory.MISC)
                                 // 当たり判定の大きさ(横,縦)
-                                .sized(0.8f, 0.25f) 
+                                .sized(0.4f, 0.2f) 
                                 .build("shotscorpion"));
-                                
+
         //マンティス
-        public static final RegistryObject<EntityType<Mantis>> Mantis =
+        public static final RegistryObject<EntityType<Mantis>> MANTIS =
                 ENTITIES.register("mantis",
-                        () -> EntityType.Builder.<ScorpionProjectile>of(ScorpionProjectile::new, MobCategory.MISC)
+                        () -> EntityType.Builder.<Mantis>of(Mantis::new, MobCategory.MISC)
                                 // 当たり判定の大きさ(横,縦)
-                                .sized(0.8f, 0.8f) 
+                                .sized(0.5f, 0.5f) 
                                 .build("mantis"));
 }
