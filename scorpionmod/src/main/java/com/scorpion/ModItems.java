@@ -12,8 +12,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, "scorpion");
 
-    // アイテムの名前はscorpion
+    // アイテムの名前と機能（スタックを一つだけにしてる）
     public static final RegistryObject<Item> SCORPION =
             ITEMS.register("scorpion",
-                    () -> new Item(new Item.Properties().static(1)));
+                    () -> new ScorpionItem(new Item.Properties().stacksTo(1)));
 }
